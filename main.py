@@ -33,8 +33,3 @@ print(pd.DataFrame(X_normalized, columns=X.columns))
 
 df_preprocessed = pd.DataFrame(X_normalized, columns=X.columns)
 df_preprocessed['Outcome'] = y.values
-
-print("Preprocessed data:")
-print(df_preprocessed)
-
-
